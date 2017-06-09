@@ -1,49 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-  <title>Learn English</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
 
-  ul {
-      margin: 0;
-      padding: 0;
-/*      overflow: hidden; */
-      background-color: #ff3300;
-  }
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    boder: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
 
-  li {
-      float: left;
-      border-right:1px solid #bbb;
-      list-style-type: none;
-  }
+ul.topnav li {float: left;border-right: 1px solid #ffffff}
 
-  li:last-child {
-    border-right: none;
-  }
+ul.topnav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-  li a {
-      display: block;
-/*      color: white; */
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
+ul.topnav li a:hover:not(.active) {background-color: #ddd;}
 
-  li a:hover:not(.active) {
-      background-color: #111;
-  }
+ul.topnav li a.active {color: white; background-color: #4CAF50;}
 
-  .active {
-      background-color: #4CAF50; 
-  }
+ul.topnav li.right {float: right;}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #29a329;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a6a6a6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+
 </style>
 </head>
 <body>
-<ul>
+<ul class="topnav">
   <li><a class="active" href="#Contents">Contents</a></li>
   <li><a href="#Documents">Documents</a></li>
   <li><a href="#Vocabulary">Vocabulary</a></li>
-  <li style="float:right"><a href="#Others">Others</a></li>
+  <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Units</a>
+      <div class="dropdown-content">
+          <a href="#">Unit 4</a>
+          <a href="#">Unit 5</a>
+          <a href="#">Unit 6</a>
+      </div>
+  </li>
+  <li><a href="#Other">Others</a></li>
 </ul>
 </body>
 </html>
