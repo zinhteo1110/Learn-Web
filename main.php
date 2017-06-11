@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/login.css">
 <style>
 body {margin: 0;}
 
@@ -90,6 +91,33 @@ li.dropdown {
     </div>
   </li>
   <li><a href="#Other">Other</a></li>
+
+  <div style="float:right" id="wrap">
+  <div id="regbar">
+    <div id="navthing">
+      <h4><a href="#" id="loginform">Login</a> | <a href="#">Register</a></h4>
+    <div class="login">
+      <div class="arrow-up"></div>
+      <div class="formholder">
+        <div class="randompad">
+           <fieldset>
+             <label name="email">Email</label>
+             <input type="email" value="example@example.com" />
+             <label name="password">Password</label>
+             <input type="password" />
+             <input type="submit" value="Login" />
+
+           </fieldset>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/login.js"></script>
+
 </ul>
 </body>
 </html>
