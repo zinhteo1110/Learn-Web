@@ -40,7 +40,7 @@ $( function() {
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Contents</a>
-        </div><!-- /navbar-header -->
+        </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#">Documents</a></li>
@@ -59,7 +59,7 @@ $( function() {
             </li>
           </ul>
         </div><!--/.nav-collapse -->
-      </div><!-- /.container -->
+      </div>
     </nav>
 
 	<div id="wrapper">
@@ -143,11 +143,18 @@ $( function() {
 						<label for="radio-36">Food</label>
 						<input type="radio" name="radio-1" id="radio-36">
 					</fieldset>
+					<div class="picture">
 
-				</div>
-				<!--end div widget------------------>
+					</div><!-- end div picture -->
+				</div><!--end div widget-->
 
-				<div id="content">
+	      <div class="row">
+		        <div class="col-lg-12">
+		        	<h1></h1>
+						</div><!--end div col-lg-12-->
+	      </div><!--end div row-->
+
+				<div class="content">
 					<!--div class="responsive"-->
 						<div class="gallery">
 							<figure>
@@ -253,14 +260,14 @@ $( function() {
 						</div><!-- end div gallery - pineapple.jpg -->
 					<!--/div><!-- end div responsive -->
 
-				</div>
-				<!--end div content------------------>
+				</div><!-- end div content -->
 
-	 	</div>
-		<!--end div container----------------------------->
+	 	</div><!--end div container-->
 
-  </div>
-	<!--end div wrapper------------------------------------------->
+  </div><!--end div wrapper-->
+
+    <!--script src="assets/jquery-1.11.3-jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script-->
 
 </body>
 </html>
