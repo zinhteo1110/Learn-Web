@@ -17,11 +17,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome Smart Learn English- <?php echo $userRow['userEmail']; ?></title>
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css"  />
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" href="style.css" type="text/css" />
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="assets/js/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="assets/js/jquery-1.12.4.js"></script>
+<script src="assets/js/ui/1.12.1/jquery-ui.js"></script>
 <script>
 $( function() {
 	$( "input" ).checkboxradio();
@@ -154,67 +154,109 @@ $( function() {
 						</div><!--end div col-lg-12-->
 	      </div><!--end div row-->
 
-				<!--div class="content"-->
-					<div class="responsive">
+				<div class="content">
+					<!--div class="responsive"-->
 						<div class="gallery">
-							<a target="_blank" href="assets/images/carrot.jpg">
-								<img src="assets/images/carrot.jpg" alt="Food" width="300" height="200">
-							</a>
-						<div class="desc">Add a decription of the image here</div>
+							<figure>
+								<a target="_blank" href="assets/images/carrot.jpg">
+									<img src="assets/images/carrot.jpg" alt="Food">
+								</a>
+								<figcaption>
+									<h4>This is a cool title!</h4>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+								</figcaption>
+								<div class="desc">carrot</div>
+						</figure>
 						</div><!-- end div gallery - caroot.jpg -->
 					<!--/div><!--end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
-							<a target="_blank" href="assets/images/melon.jpg">
-								<img src="assets/images/melon.jpg" alt="Food" width="300" height="200">
-							</a>
-							<div class="desc">Add a decription of the image here</div>
+							<figure>
+								<a target="_blank" href="assets/images/melon.jpg">
+									<img src="assets/images/melon.jpg" alt="Food">
+								</a>
+								<figcaption>
+									<h4>This is a cool title!</h4>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+								</figcaption>
+								<div class="desc">melon</div>
+						</figure>
 						</div><!-- end div gallery - melon.jpg -->
 					<!--/div><!-- end div response -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
-							<a target="_blank" href="assets/images/peach.jpg">
-								<img src="assets/images/peach.jpg" alt="Food" width="300" height="200">
-							</a>
-							<div class="desc">Add a decription of the image here</div>
+							<figure>
+								<a target="_blank" href="assets/images/peach.jpg">
+									<img src="assets/images/peach.jpg" alt="Food">
+								</a>
+								<figcaption>
+									<h4>This is a cool title!</h4>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+								</figcaption>
+								<div class="desc">peach</div>
+						</figure>
 						</div><!-- end div gallery - peach.jpg -->
 					<!--/div><!-- end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
-							<a target="_blank" href="assets/images/strawberry.jpg">
-								<img src="assets/images/strawberry.jpg" alt="Food" width="300" height="200">
-							</a>
-							<div class="desc">Add a decription of the image here</div>
+							<figure>
+								<a target="_blank" href="assets/images/strawberry.jpg">
+									<img src="assets/images/strawberry.jpg" alt="Food">
+								</a>
+								<figcaption>
+									<h4>This is a cool title!</h4>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+								</figcaption>
+								<div class="desc">strawberry</div>
+						</figure>
 						</div><!-- end div gallery - strawberry.jpg -->
 					<!--/div><!--end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
-							<a target="_blank" href="assets/images/grapes.jpg">
-								<img src="assets/images/grapes.jpg" alt="Food" width="300" height="200">
-							</a>
-							<div class="desc">Add a decription of the image here</div>
+							<figure>
+								<a target="_blank" href="assets/images/grapes.jpg">
+									<img src="assets/images/grapes.jpg" alt="Food">
+								</a>
+								<figcaption>
+									<h4>This is a cool title!</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+								</figcaption>
+								<div class="desc">grapes</div>
+						</figure>
 						</div><!-- end div gallery - grapes.jpg -->
 					<!--/div><!--end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
-							<a target="_blank" href="assets/images/pear.jpg">
-								<img src="assets/images/pear.jpg" alt="Food" width="300" height="200">
-							</a>
-							<div class="desc">Add a decription of the image here</div>
+							<figure>
+								<a target="_blank" href="assets/images/pear.jpg">
+									<img src="assets/images/pear.jpg" alt="Food">
+								</a>
+								<figcaption>
+									<h4>This is a cool title!</h4>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+								</figcaption>
+								<div class="desc">pear</div>
+						</figure>
 						</div><!-- end div gallery - pear.jpg -->
 					<!--/div><!-- end div response -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
-							<a target="_blank" href="assets/images/pineapple.jpg">
-								<img src="assets/images/pineapple.jpg" alt="Food" width="300" height="200">
-							</a>
-							<div class="desc">Add a decription of the image here</div>
+							<figure>
+								<a target="_blank" href="assets/images/pineapple.jpg">
+									<img src="assets/images/pineapple.jpg" alt="Food">
+								</a>
+								<figcaption>
+									<h4>This is a cool title!</h4>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+								</figcaption>
+								<div class="desc">pineapple</div>
+						</figure>
 						</div><!-- end div gallery - pineapple.jpg -->
 					<!--/div><!-- end div responsive -->
 
