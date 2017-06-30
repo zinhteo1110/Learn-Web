@@ -61,6 +61,7 @@ $( function() {
         </div><!--/.nav-collapse -->
       </div><!-- /.container -->
     </nav>
+		<!--end nav-->
 
 	<div id="wrapper">
 
@@ -102,7 +103,7 @@ $( function() {
 						<input type="radio" name="radio-1" id="radio-15">
 						<label for="radio-16">Family</label>
 						<input type="radio" name="radio-1" id="radio-16">
-						<label for="radio-17">Eating, Food & Drinks</label>
+						<label for="radio-17">Eating, Food | Drinks</label>
 						<input type="radio" name="radio-1" id="radio-17">
 						<label for="radio-18">Gardening and Plants</label>
 						<input type="radio" name="radio-1" id="radio-18">
@@ -147,7 +148,7 @@ $( function() {
 				</div>
 				<!--end div widget------------------>
 
-				<div id="content">
+				<div class="content">
 					<!--div class="responsive"-->
 						<div class="gallery">
 							<figure>
@@ -161,7 +162,7 @@ $( function() {
 								<div class="desc">carrot</div>
 						</figure>
 						</div><!-- end div gallery - caroot.jpg -->
-					<!--/div><!--end div responsive -->
+					<!--end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
@@ -170,13 +171,13 @@ $( function() {
 									<img src="assets/images/melon.jpg" alt="Food">
 								</a>
 								<figcaption>
-									<h4>This is a cool title!</h4>
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost.</p>
+									<h4>Vitamin A, C</h4>
+                	<p>Watermelon: Health benefits, nutrition, and risks.</p>
 								</figcaption>
 								<div class="desc">melon</div>
 						</figure>
 						</div><!-- end div gallery - melon.jpg -->
-					<!--/div><!-- end div response -->
+					<!-- end div response -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
@@ -191,7 +192,7 @@ $( function() {
 								<div class="desc">peach</div>
 						</figure>
 						</div><!-- end div gallery - peach.jpg -->
-					<!--/div><!-- end div responsive -->
+					<!-- end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
@@ -206,7 +207,7 @@ $( function() {
 								<div class="desc">strawberry</div>
 						</figure>
 						</div><!-- end div gallery - strawberry.jpg -->
-					<!--/div><!--end div responsive -->
+					<!--end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
@@ -221,7 +222,7 @@ $( function() {
 								<div class="desc">grapes</div>
 						</figure>
 						</div><!-- end div gallery - grapes.jpg -->
-					<!--/div><!--end div responsive -->
+					<!--end div responsive -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
@@ -236,7 +237,7 @@ $( function() {
 								<div class="desc">pear</div>
 						</figure>
 						</div><!-- end div gallery - pear.jpg -->
-					<!--/div><!-- end div response -->
+					<!-- end div response -->
 
 					<!--div class="responsive"-->
 						<div class="gallery">
@@ -251,7 +252,7 @@ $( function() {
 								<div class="desc">pineapple</div>
 						</figure>
 						</div><!-- end div gallery - pineapple.jpg -->
-					<!--/div><!-- end div responsive -->
+					<!-- end div responsive -->
 
 				</div>
 				<!--end div content------------------>
