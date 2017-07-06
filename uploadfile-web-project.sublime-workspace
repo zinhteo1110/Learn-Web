@@ -1,0 +1,234 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"up",
+				"uploadOk"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/haidn4/Documents/Learn-Web/test/1",
+		"/home/haidn4/Documents/Learn-Web/test/2",
+		"/home/haidn4/Documents/Learn-Web/test/3",
+		"/home/haidn4/Documents/Learn-Web/test/4",
+		"/home/haidn4/Documents/Learn-Web/test/5",
+		"/home/haidn4/Documents/Learn-Web/test/6",
+		"/home/haidn4/Documents/Learn-Web/test/7",
+		"/home/haidn4/Documents/Learn-Web/test/8",
+		"/home/haidn4/Documents/Learn-Web/test/9"
+	],
+	"file_history":
+	[
+		"/home/haidn4/Documents/Learn-Web/test/9/Multiple-File-Upload-with-PHP-and-MySQL.php",
+		"/home/haidn4/Documents/Learn-Web/test/1/upload.php",
+		"/home/haidn4/Documents/Learn-Web/test/1/dbconfig.php",
+		"/home/haidn4/Documents/Learn-Web/test/1/index.php",
+		"/home/haidn4/Documents/Learn-Web/test/1/upload1.php",
+		"/home/haidn4/python_code/ex1.py",
+		"/home/haidn4/Documents/Sublime/Detect network hardware",
+		"/home/haidn4/Documents/Sublime/Switch",
+		"/home/haidn4/Documents/Sublime/server moniter DUOC:",
+		"/home/haidn4/GIT",
+		"/home/haidn4/Documents/Sublime/Mail IDC.",
+		"/home/haidn4/Documents/Learn-Web/login-registration-php-new/test/test.html",
+		"/home/haidn4/Documents/Learn-Web/login-registration-php-new/home.php",
+		"/home/haidn4/Documents/Learn-Web/login-registration-php-new/test/style.css",
+		"/home/haidn4/Documents/Learn-Web/login-registration-php-new/test/testlayout.html",
+		"/home/haidn4/Downloads/file-uploading-with-php-and-mysql/upload.php",
+		"/home/haidn4/Documents/Sublime/Observium",
+		"/home/haidn4/Documents/Sublime/config network card VM",
+		"/home/haidn4/Documents/Sublime/Temp",
+		"/home/haidn4/Documents/Sublime/monitor Datafirst",
+		"/home/haidn4/disable_smbv1_client.cmd",
+		"/home/haidn4/python_code/ex15.py",
+		"/home/haidn4/Documents/Sublime/1",
+		"/home/haidn4/Documents/Sublime/rsync",
+		"/home/haidn4/Documents/Sublime/nginx on dev.sendo.vn",
+		"/home/haidn4/Documents/Sublime/FABRIC",
+		"/home/haidn4/Documents/Sublime/MEMCACHED",
+		"/home/haidn4/Documents/Sublime/UBUNTU - TUTs",
+		"/home/haidn4/Documents/NGINX",
+		"/media/haidn4/DATA/NGINX",
+		"/media/haidn4/DATA/yum install ",
+		"/home/haidn4/Documents/Sublime/servertest01.fns.local - 172.30.119.139",
+		"/home/haidn4/Documents/Sublime/1) xem thong tin phan cung server",
+		"/home/haidn4/Documents/Sublime/10.90.7.121",
+		"/home/haidn4/Documents/Sublime/SNMP - NAGIOS",
+		"/media/haidn4/DATA/untitled",
+		"/media/haidn4/DATA/Composer",
+		"/media/haidn4/DATA/yum list",
+		"/media/haidn4/DATA/find",
+		"/media/haidn4/DATA/location",
+		"/media/haidn4/DATA/vhosts",
+		"/media/haidn4/DATA/user nginx",
+		"/media/haidn4/DATA/localhost",
+		"/media/haidn4/DATA/source",
+		"/home/haidn4/Documents/1)All ICINGA",
+		"/home/haidn4/Documents/Schema_mysql.sql",
+		"/home/haidn4/Documents/confighost.html",
+		"/home/haidn4/Documents/nagios",
+		"/home/haidn4/Documents/how to integrate pnp module",
+		"/home/haidn4/Documents/icinga2",
+		"/home/haidn4/Documents/icinga"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"icinga_host_status",
+			"InnoDB"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MyISAM"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "uploadfile-web-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
