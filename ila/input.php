@@ -13,12 +13,14 @@ include_once 'dbconfig.php';
 </div>
 <div id="body">
 	<form action="upload.php" method="post" enctype="multipart/form-data">
-	Feature:
-	<input type="text" name="feature"><br>
 	Name:
 	<input type="text" name="name"><br>
+	Feature:
+	<input type="text" name="feature"><br>
 	Descript:
 	<input type="text" name="descript"><br> 
+	Group:
+	<input type="text" name="group_category"><br>
 	<input type="file" name="file" />
 	<button type="submit" name="btn-upload">upload</button>
 	</form>

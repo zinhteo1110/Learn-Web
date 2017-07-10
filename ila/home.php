@@ -1,7 +1,7 @@
 <?php
 	ob_start();
 	session_start();
-	require_once 'dbconnect.php';
+	include_once 'dbconfig.php';
 
 	// if session is not set this will redirect to login page
 	if( !isset($_SESSION['user']) ) {
@@ -149,20 +149,35 @@ $( function() {
 				<!--end div widget-->
 
 				<div class="content">
-					<!--div class="responsive"-->
+					
+					<?php
+						$sql="SELECT * FROM tbl_images";
+						$result_set=mysql_query($sql);
+
+						if($result_set == FALSE)
+						{
+							die(mysql_error());
+						}
+
+						while($row=mysql_fetch_array($result_set))
+						{
+					?>
+
 						<div class="gallery">
 							<figure>
-								<a target="_blank" href="assets/images/carrot.jpg">
-									<img src="assets/images/carrot.jpg" alt="Food">
+								<a target="_blank" href="<?php echo $row['file'] ?>">
+								<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
 								</a>
 								<figcaption>
-									<h4>Vitamin A</h4>
-                	<p>Carrots were one of the vegetables examined in recent research on foods rich in beta-carotene and bone health. </p>
+									<h4><?php echo $row['feature'] ?></h4>
+                	<p><?php echo $row['descript'] ?></p>
 								</figcaption>
-								<div class="desc">carrot</div>
+								<div class="name"><?php echo $row['name'] ?></div>
 						</figure>
-						</div><!-- end div gallery - caroot.jpg -->
-					<!--end div responsive -->
+						</div>
+						<?php
+						}
+						?>
 
 				</div>
 				<!--end div content-->

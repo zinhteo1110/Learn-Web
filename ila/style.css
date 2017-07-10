@@ -131,7 +131,7 @@ div.gallery figure:hover figcaption, figure.hover figcaption {
   transform:rotateY(0)
 }
 
-div.desc {
+div.name {
 	position: relative;
 	padding:5px;
 	margin: 3px;

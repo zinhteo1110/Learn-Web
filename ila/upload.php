@@ -10,6 +10,7 @@ if(isset($_POST['btn-upload']))
 	$file_feature = $_POST['feature'];
 	$file_name = $_POST['name'];
 	$file_descript = $_POST['descript'];
+	$file_group = $_POST['group_category'];
 	$folder="assets/images/food/";
 	
 	// new file size in KB
@@ -22,7 +23,7 @@ if(isset($_POST['btn-upload']))
 		
 	if(move_uploaded_file($file_loc,$folder.$final_file))
 	{
-		$sql="INSERT INTO tbl_images(file,feature,name,descript) VALUES('$folder.$final_file','$file_feature','$file_name','$file_descript')";
+		$sql="INSERT INTO tbl_images(file,feature,name,descript,group_category) VALUES('$folder$final_file','$file_feature','$file_name','$file_descript','$file_group')";
 		mysql_query($sql);
 		?>
 		<script>
