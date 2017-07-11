@@ -161,22 +161,22 @@ $( function() {
 
 						while($row=mysql_fetch_array($result_set))
 						{
-					?>
 
-						<div class="gallery">
-							<figure>
-								<a target="_blank" href="<?php echo $row['file'] ?>">
-								<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
-								</a>
-								<figcaption>
-									<h4><?php echo $row['feature'] ?></h4>
-                	<p><?php echo $row['descript'] ?></p>
-								</figcaption>
-								<div class="name"><?php echo $row['name'] ?></div>
-						</figure>
-						</div>
+						?>
+							<div class="gallery">
+								<figure>
+									<a target="_blank" href="<?php echo $row['file'] ?>">
+									<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
+									</a>
+									<figcaption>
+										<h4><?php echo $row['feature'] ?></h4>
+	                					<p><?php echo $row['descript'] ?></p>
+									</figcaption>
+									<div class="name"><?php echo $row['name'] ?></div>
+							</figure>
+							</div>
 						<?php
-						}
+						}	
 						?>
 
 				</div>
