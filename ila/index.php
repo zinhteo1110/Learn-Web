@@ -1,8 +1,8 @@
 <?php
 	ob_start();
 	session_start();
-//	require_once 'dbconnect.php';
-	require_once 'dbconfig.php';
+	require_once 'dbconnect.php';
+//	require_once 'dbconfig.php';
 	
 	// it will never let you open index(login) page if session is set
 	if ( isset($_SESSION['user'])!="" ) {
