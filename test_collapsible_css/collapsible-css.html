@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example of Bootstrap 3 Accordion with Plus/Minus Icon</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .bs-example{
+      margin: 20px;
+    }
+    .panel-title .glyphicon{
+        font-size: 14px;
+    }
+</style>
+<script>
+    $(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.in").each(function(){
+          $(this).siblings(".panel-heading").find(".glyphicon").addClass("glyphicon-minus").removeClass("glyphicon-plus");
+        });
+        
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function(){
+          $(this).parent().find(".glyphicon").removeClass("glyphicon-plus").addClass("glyphicon-minus");
+        }).on('hide.bs.collapse', function(){
+          $(this).parent().find(".glyphicon").removeClass("glyphicon-minus").addClass("glyphicon-plus");
+        });
+    });
+</script>
+</head>
+<body>
+<div class="bs-example">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-plus"></span> 1. Cài đặt Python - bắt đầu lập trình.</a>
+                </h4>
+            </div><!-- end div panel-heading-->
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <p>&#x2022; Python Windows.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Python Linux.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Python MacOSX.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; PIP Python Index Package - Quan ly goi thu vien.</p>
+                </div>
+            </div><!-- end div collapseOne-->
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span> 2. Học nhanh cú pháp Python</a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse ">
+                <div class="panel-body">
+                    <p>&#x2022; Các kiểu dữ liệu cơ bản - toán tử số học.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; print - formatted string.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Điều kiện if then else.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; So sánh == và is.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Vòng lặp for.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Nested for loop.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; While loop.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; HW: Luyện tập loop if then else.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Cú pháp khác người của Python.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; HW: in hình zig zag ra màn hình.</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-plus"></span> 3. Built In Functions - Hàm có sẵn.</a>
+                </h4>
+            </div><!--end div panel-heading-->
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>&#x2022; Built in function.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Zip function.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Randomize.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Enumerate.</p>
+                </div>
+            </div><!--end div panel-collapse collapse-->
+        </div>
+        <div class="panel panel-default"><!--begin div panel-default-->
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourth"><span class="glyphicon glyphicon-plus"></span> 4. Lập trình tập hợp</a>
+                </h4>
+            </div><!--end div panel-heading-->
+            <div id="collapseFourth" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>&#x2022; List.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Sử dụng List như Stack, Queue.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Chiết xuất phần tử duy nhất từ List Tuple.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Set và các phép toán tập hợp.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Dictionary.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Shallow Copy vs Deep Copy.</p>
+                </div>
+            </div><!--end div collapseFourth-->
+        </div><!--end div panel-default-->
+        <div class="panel panel-default"><!--begin div panel-default-->
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFifth"><span class="glyphicon glyphicon-plus"></span> 5. Các thuật toán sắp xếp cơ bản.</a>
+                </h4>
+            </div><!--end div panel-heading-->
+            <div id="collapseFifth" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>&#x2022; Bubble Sort - sắp xếp nổi bọt.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Pseudocode là gì?.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Selection Sort.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Insert Sort.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Mức độ khó của thuật toán O(n).</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Tối ưu tốc độ thực thi nhờ Cython.</p>
+                </div>
+            </div><!--end div collapseFifth-->
+        </div><!--end div panel-default-->
+        <div class="panel panel-default"><!--begin div panel-default-->
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix"><span class="glyphicon glyphicon-plus"></span> 6. Các thuật toán sắp xếp cơ bản.</a>
+                </h4>
+            </div><!--end div panel-heading-->
+            <div id="collapseSix" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>&#x2022; Định nghĩa hàm và tham số truyền vào.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Fibonacci, Lãi suất ngân hàng và phương trình bậc hai.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Lambda function và ứng dụng.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Recursive - Hàm đệ quy.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Quick Sort.</p>
+                </div>
+             </div><!--end div collapseFifth-->
+        </div><!--end div panel-default-->
+        <div class="panel panel-default"><!--begin div panel-default-->
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven"><span class="glyphicon glyphicon-plus"></span> 6. Các thuật toán sắp xếp cơ bản.</a>
+                </h4>
+            </div><!--end div panel-heading-->
+            <div id="collapseSeven" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>&#x2022; Khai báo class.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Đa kế thừa - Multiple Inheritance.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Đa hình - poly.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Recursive - Hàm đệ quy.</p>
+                </div>
+                <div class="panel-body">
+                    <p>&#x2022; Quick Sort.</p>
+                </div>
+             </div><!--end div collapseFifth-->
+        </div><!--end div panel-default-->
+    </div><!--end div panel-group -->
+  <p><strong>Note:</strong> Click on the linked heading text to expand or collapse accordion panels.</p>
+</div><!--end div bs-example-->
+</body>
+</html>                                                                                                   
