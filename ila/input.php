@@ -54,7 +54,7 @@
 	else if(isset($_GET['fail']))
 	{
 		?>
-        <label>Problem While File Uploading! abcxyz...</label>  -->
+        <label>Problem While File Uploading! ABC...</label>  -->
         <?php
 	}
 	else
