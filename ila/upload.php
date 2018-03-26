@@ -11,7 +11,7 @@ if(isset($_POST['btn-upload']))
 	$file_name = $_POST['name'];
 	$file_descript = $_POST['descript'];
 	$file_group = $_POST['group_category'];
-	$folder="assets/images/food/";
+	$folder="assets/images/transportation/";
 	
 	// new file size in KB
 	$new_size = $file_size/1024;  
