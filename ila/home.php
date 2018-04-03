@@ -31,37 +31,38 @@ $( function() {
 <body>
 
 	<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">KMITS</a>
-        </div><!-- /navbar-header -->
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-          	<li><a href="#">Contents</a>
-            <li><a href="#">Documents</a></li>
-            <li class="active"><a href="#">Vocabulary</a></li>
-            <li><a href="#">Units</a></li>
-						<li><a href="#">Others</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">KMITS</a>
+	        </div><!-- /navbar-header -->
 
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-			  <span class="glyphicon glyphicon-user"></span>&nbsp;Hi' <?php echo $userRow['userEmail']; ?>&nbsp;<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div><!-- /.container -->
-    </nav>
+	        <div id="navbar" class="navbar-collapse collapse">
+	          <ul class="nav navbar-nav">
+	          	<li><a href="#">Contents</a>
+	             <li><a href="#">Documents</a></li>
+	             <li class="active"><a href="#">Vocabulary</a></li>
+	             <li><a href="#">Units</a></li>
+		<li><a href="#">Others</a></li>
+	          </ul>
+
+	          <ul class="nav navbar-nav navbar-right">
+	            <li class="dropdown">
+	              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				  <span class="glyphicon glyphicon-user"></span>&nbsp;Hi' <?php echo $userRow['userEmail']; ?>&nbsp;<span class="caret"></span></a>
+	              <ul class="dropdown-menu">
+	                <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp;Sign Out</a></li>
+	              </ul>
+	            </li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div><!-- /.container -->
+    	</nav>
 		<!--end nav-->
 
 	<div id="wrapper">
@@ -75,7 +76,7 @@ $( function() {
 						<label for="radio-1">Animal</label>
 						<input type="radio" name="radio-1" id="radio-1">
 						<label for="radio-2">Body</label>
-						<input type="radio" name="radio-1" id="radio-2">
+						<input type="radio" name="radio-2 id="radio-2">
 						<label for="radio-3">Body Care</label>
 						<input type="radio" name="radio-1" id="radio-3">
 						<label for="radio-4">Body Care</label>
@@ -171,7 +172,7 @@ $( function() {
 									</a>
 									<figcaption>
 										<h4><?php echo $row['feature'] ?></h4>
-	                					<p><?php echo $row['descript'] ?></p>
+	                								<p><?php echo $row['descript'] ?></p>
 									</figcaption>
 									<div class="name"><?php echo $row['name'] ?></div>
 							</figure>
