@@ -78,73 +78,73 @@ $( function() {
 						<label for="radio-2">Body</label>
 						<input type="radio" name="radio-2" id="radio-2">
 						<label for="radio-3">Body Care</label>
-						<input type="radio" name="radio-1" id="radio-3">
+						<input type="radio" name="radio-3" id="radio-3">
 						<label for="radio-4">Body Care</label>
-						<input type="radio" name="radio-1" id="radio-4">
+						<input type="radio" name="radio-4" id="radio-4">
 						<label for="radio-5">Books and Things to Read</label>
-						<input type="radio" name="radio-1" id="radio-5">
+						<input type="radio" name="radio-5" id="radio-5">
 						<label for="radio-6">Buildings</label>
-						<input type="radio" name="radio-1" id="radio-6">
+						<input type="radio" name="radio-6" id="radio-6">
 						<label for="radio-7">Business English</label>
-						<input type="radio" name="radio-1" id="radio-7">
+						<input type="radio" name="radio-7" id="radio-7">
 						<label for="radio-8">Calendar</label>
-						<input type="radio" name="radio-1" id="radio-8">
+						<input type="radio" name="radio-8" id="radio-8">
 						<label for="radio-9">Cars</label>
-						<input type="radio" name="radio-1" id="radio-9">
+						<input type="radio" name="radio-9" id="radio-9">
 						<label for="radio-10">Celebrations</label>
-						<input type="radio" name="radio-1" id="radio-10">
+						<input type="radio" name="radio-10" id="radio-10">
 						<label for="radio-11">City</label>
-						<input type="radio" name="radio-1" id="radio-11">
+						<input type="radio" name="radio-11" id="radio-11">
 						<label for="radio-12">Clothers</label>
-						<input type="radio" name="radio-1" id="radio-12">
+						<input type="radio" name="radio-12" id="radio-12">
 						<label for="radio-13">Colors</label>
-						<input type="radio" name="radio-1" id="radio-13">
+						<input type="radio" name="radio-13" id="radio-13">
 						<label for="radio-14">Computers</label>
-						<input type="radio" name="radio-1" id="radio-14">
+						<input type="radio" name="radio-14" id="radio-14">
 						<label for="radio-15">Countries</label>
-						<input type="radio" name="radio-1" id="radio-15">
+						<input type="radio" name="radio-15" id="radio-15">
 						<label for="radio-16">Family</label>
-						<input type="radio" name="radio-1" id="radio-16">
+						<input type="radio" name="radio-16" id="radio-16">
 						<label for="radio-17">Eating, Food | Drinks</label>
-						<input type="radio" name="radio-1" id="radio-17">
+						<input type="radio" name="radio-17" id="radio-17">
 						<label for="radio-18">Gardening and Plants</label>
-						<input type="radio" name="radio-1" id="radio-18">
+						<input type="radio" name="radio-18" id="radio-18">
 						<label for="radio-19">Geography</label>
-						<input type="radio" name="radio-1" id="radio-19">
+						<input type="radio" name="radio-19" id="radio-19">
 						<label for="radio-20">Health</label>
-						<input type="radio" name="radio-1" id="radio-20">
+						<input type="radio" name="radio-20" id="radio-20">
 						<label for="radio-21">Holidays</label>
-						<input type="radio" name="radio-1" id="radio-21">
+						<input type="radio" name="radio-21" id="radio-21">
 						<label for="radio-22">House</label>
-						<input type="radio" name="radio-1" id="radio-22">
+						<input type="radio" name="radio-22" id="radio-22">
 						<label for="radio-23">Jobs, Occupations and Professions</label>
-						<input type="radio" name="radio-1" id="radio-23">
+						<input type="radio" name="radio-23" id="radio-23">
 						<label for="radio-24">Law</label>
-						<input type="radio" name="radio-1" id="radio-24">
+						<input type="radio" name="radio-24" id="radio-24">
 						<label for="radio-25">Miscellaneous</label>
-						<input type="radio" name="radio-1" id="radio-25">
+						<input type="radio" name="radio-25" id="radio-25">
 						<label for="radio-26">Money</label>
-						<input type="radio" name="radio-1" id="radio-26">
+						<input type="radio" name="radio-26" id="radio-26">
 						<label for="radio-27">Music</label>
-						<input type="radio" name="radio-1" id="radio-27">
+						<input type="radio" name="radio-27" id="radio-27">
 						<label for="radio-28">Office</label>
-						<input type="radio" name="radio-1" id="radio-28">
+						<input type="radio" name="radio-28" id="radio-28">
 						<label for="radio-29">People</label>
-						<input type="radio" name="radio-1" id="radio-29">
+						<input type="radio" name="radio-29" id="radio-29">
 						<label for="radio-30">Seasons</label>
-						<input type="radio" name="radio-1" id="radio-30">
+						<input type="radio" name="radio-30" id="radio-30">
 						<label for="radio-31">Sports</label>
-						<input type="radio" name="radio-1" id="radio-31">
+						<input type="radio" name="radio-31" id="radio-31">
 						<label for="radio-32">Time</label>
-						<input type="radio" name="radio-1" id="radio-32">
+						<input type="radio" name="radio-32" id="radio-32">
 						<label for="radio-33">Transportation</label>
-						<input type="radio" name="radio-1" id="radio-33">
+						<input type="radio" name="radio-33" id="radio-33">
 						<label for="radio-34">Travel</label>
-						<input type="radio" name="radio-1" id="radio-34">
+						<input type="radio" name="radio-34" id="radio-34">
 						<label for="radio-35">Weather</label>
-						<input type="radio" name="radio-1" id="radio-35">
+						<input type="radio" name="radio-35" id="radio-35">
 						<label for="radio-36">Food</label>
-						<input type="radio" name="radio-1" id="radio-36">
+						<input type="radio" name="radio-36" id="radio-36">
 					</fieldset>
 
 				</div>
