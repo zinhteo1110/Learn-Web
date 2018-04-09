@@ -2,7 +2,18 @@
 <head>
   <title>CSS3 Image Effect</title>
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <button id="1" name="1" value="1">Button1</button>
+  <button id="2" name="2" value="2">Button2</button>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+        <script type="text/javascript">
+            $(document).ready(function() {
+            $("button").click(function() {
+            var fired_button = $("this").val();
+            alert(fired_button);
+        });
+             }
+        </script>
 </head>
 <body>
 <ul class="demo-3">
@@ -16,14 +27,7 @@
         </figure>
     </li>
 </ul>
-  <script type="text/javascript">
-        $("button").click(function() {
-        var fired_button = $("this").val();
-        alert(fired_button);
-    });
-</script> 
-<button id="1" name="1" value="1">Button1</button>
-<button id="2" name="2" value="2">Button2</button>
+
 </body>
 </html>
 
