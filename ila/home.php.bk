@@ -73,8 +73,7 @@ $( function() {
 	    		<h6>Learning Vocabulary by Pictures!</h6>
 					<fieldset>
 						<legend>Select a Category: </legend>
-							
-							<button type="button" class="btn btn-primary btn-sm" id="1" name="Food" value="Food">Food</button>
+							<button type="button" class="btn btn-primary btn-sm" id="1" value="Food">Food</button>
 							<button type="button" class="btn btn-primary btn-sm" id="2" value="Animal">Animal</button>
 							<button type="button" class="btn btn-primary btn-sm" id="3" value="Body">Body</button>
 							<button type="button" class="btn btn-primary btn-sm" id="4" value="Body Care">Body Care</button>
@@ -106,10 +105,9 @@ $( function() {
 							<button type="button" class="btn btn-primary btn-sm" id="30" value="Seasons">Seasons</button>
 							<button type="button" class="btn btn-primary btn-sm" id="31" value="Sports">Sports</button>
 							<button type="button" class="btn btn-primary btn-sm" id="32" value="Time">Time</button>
-							<button type="button" class="btn btn-primary btn-sm" id="33" name="Transportation" value="Transportation">Transportation</button>
+							<button type="button" class="btn btn-primary btn-sm" id="33" value="Transportation">Transportation</button>
 							<button type="button" class="btn btn-primary btn-sm" id="34" value="Travel">Travel</button>
 							<button type="button" class="btn btn-primary btn-sm" id="35" value="Weather">Weather</button>
-							
 						</fieldset>
 
 		</div>
@@ -154,6 +152,7 @@ $( function() {
 
   </div>
 	<!--end div wrapper-->
+
 </body>
 </html>
 <?php ob_end_flush(); ?>
