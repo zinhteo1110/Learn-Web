@@ -18,5 +18,6 @@ tao form cho cac button | radio thuoc category.
 	==> SUCCESSFUL
 	
 	khi do se hien thi dung image Food | Transportation.
-	
+Note!:The information from that HTML page is stored in $_REQUEST, which is a
+special variable in PHP.	
 -------------------------------------------------------------------------------
