@@ -8,7 +8,7 @@
 -- PHP Version: 5.5.9-1ubuntu4.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+SET time_zone = "+07:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -51,3 +51,6 @@ INSERT INTO `tbl_images` (`id`, `file`, `feature`, `name`, `descript`) VALUES
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+INSERT INTO `tbl_images` (`id`, `file`, `feature`, `name`, `descript`) VALUES (8, 'assets/images/food/74183-tomato.jpg', 'Vitamin X, Y, Z', 'tomato', 'The tomato (solanum lycopersicum) is a fruit. It is shiny and smooth. It has many small seeds. It is very tasty. It is also very good for health.');
+
