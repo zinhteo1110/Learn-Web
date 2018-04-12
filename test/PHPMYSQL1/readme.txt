@@ -30,4 +30,6 @@ special variable in PHP.
 			echo $str . "<br>";
 			echo trim($str,"Hed!");
 		?>
-	
+	-str_replace
+		str_replace(find,replace,string,count)
+		==> str_replace("world","Peter","Hello world!");
