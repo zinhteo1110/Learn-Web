@@ -73,6 +73,7 @@ $( function() {
 	    		<h6>Learning Vocabulary by Pictures!</h6>
 					<fieldset>
 						<legend>Select a Category: </legend>
+<<<<<<< HEAD
 							<label for="radio-1">Animal</label>
 						<input type="radio" name="radio-1" id="radio-1">
 						<label for="radio-2">Body</label>
@@ -145,6 +146,45 @@ $( function() {
 						<input type="radio" name="radio-1" id="radio-35">
 						<label for="radio-36">Food</label>
 						<input type="radio" name="radio-1" id="radio-36">
+=======
+							
+							<button type="button" class="btn btn-primary btn-sm" id="1" name="Food" value="Food">Food</button>
+							<button type="button" class="btn btn-primary btn-sm" id="2" value="Animal">Animal</button>
+							<button type="button" class="btn btn-primary btn-sm" id="3" value="Body">Body</button>
+							<button type="button" class="btn btn-primary btn-sm" id="4" value="Body Care">Body Care</button>
+							<button type="button" class="btn btn-primary btn-sm" id="5" value="Books and Things to Read">Books and Things to Read</button>
+							<button type="button" class="btn btn-primary btn-sm" id="6" value="Buildings">Buildings</button>
+							<button type="button" class="btn btn-primary btn-sm" id="7" value="Business English">Business English</button>
+							<button type="button" class="btn btn-primary btn-sm" id="8" value="Calendar">Calendar</button>
+							<button type="button" class="btn btn-primary btn-sm" id="9" value="Cars">Cars</button>
+							<button type="button" class="btn btn-primary btn-sm" id="10" value="Celebrations">Celebrations</button>
+							<button type="button" class="btn btn-primary btn-sm" id="11" value="City">City</button>
+							<button type="button" class="btn btn-primary btn-sm" id="12" value="Clothers">Clothers</button>
+							<button type="button" class="btn btn-primary btn-sm" id="13" value="Colors">Colors</button>
+							<button type="button" class="btn btn-primary btn-sm" id="14" value="Computers">Computers</button>
+							<button type="button" class="btn btn-primary btn-sm" id="15" value="Countries">Countries</button>
+							<button type="button" class="btn btn-primary btn-sm" id="16" value="Family">Family</button>
+							<button type="button" class="btn btn-primary btn-sm" id="17" value="Eating, Food | Drinks">Eating, Food | Drinks</button>
+							<button type="button" class="btn btn-primary btn-sm" id="18" value="Gardening and Plants">Gardening and Plants</button>
+							<button type="button" class="btn btn-primary btn-sm" id="19" value="Geography">Geography</button>
+							<button type="button" class="btn btn-primary btn-sm" id="20" value="Health">Health</button>
+							<button type="button" class="btn btn-primary btn-sm" id="21" value="Holidays">Holidays</button>
+							<button type="button" class="btn btn-primary btn-sm" id="22" value="House">House</button>
+							<button type="button" class="btn btn-primary btn-sm" id="23" value="Jobs, Occupations and Professions">Jobs, Occupations and Professions</button>
+							<button type="button" class="btn btn-primary btn-sm" id="24" value="Law">Law</button>
+							<button type="button" class="btn btn-primary btn-sm" id="25" value="Miscellaneous">Miscellaneous</button>
+							<button type="button" class="btn btn-primary btn-sm" id="26" value="Money">Money</button>
+							<button type="button" class="btn btn-primary btn-sm" id="27" value="Music">Music</button>
+							<button type="button" class="btn btn-primary btn-sm" id="28" value="Office">Office</button>
+							<button type="button" class="btn btn-primary btn-sm" id="29" value="People">People</button>
+							<button type="button" class="btn btn-primary btn-sm" id="30" value="Seasons">Seasons</button>
+							<button type="button" class="btn btn-primary btn-sm" id="31" value="Sports">Sports</button>
+							<button type="button" class="btn btn-primary btn-sm" id="32" value="Time">Time</button>
+							<button type="button" class="btn btn-primary btn-sm" id="33" name="Transportation" value="Transportation">Transportation</button>
+							<button type="button" class="btn btn-primary btn-sm" id="34" value="Travel">Travel</button>
+							<button type="button" class="btn btn-primary btn-sm" id="35" value="Weather">Weather</button>
+							
+>>>>>>> fbeabc716f9bea0399e92db3d517ad9fdf5931e8
 						</fieldset>
 
 		</div>
@@ -175,8 +215,13 @@ $( function() {
 	                								<p><?php echo $row['descript'] ?></p>
 									</figcaption>
 									<div class="name"><?php echo $row['name'] ?></div>
+<<<<<<< HEAD
 								</figure>
 							</div><!--end dig gallery-->
+=======
+							</figure>
+							</div>
+>>>>>>> fbeabc716f9bea0399e92db3d517ad9fdf5931e8
 					<?php
 						}	
 					?>
@@ -189,7 +234,10 @@ $( function() {
 
   </div>
 	<!--end div wrapper-->
+<<<<<<< HEAD
 
+=======
+>>>>>>> fbeabc716f9bea0399e92db3d517ad9fdf5931e8
 </body>
 </html>
 <?php ob_end_flush(); ?>
