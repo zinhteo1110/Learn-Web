@@ -74,7 +74,11 @@ $( function() {
 					<fieldset>
 						<legend>Select a Category: </legend>
 <<<<<<< HEAD
+<<<<<<< HEAD
 							<label for="radio-1">Animal</label>
+=======
+						<label for="radio-1">Animal</label>
+>>>>>>> 5071f1e198077a0be36991f018cad622115ec620
 						<input type="radio" name="radio-1" id="radio-1">
 						<label for="radio-2">Body</label>
 						<input type="radio" name="radio-1" id="radio-2">
@@ -146,6 +150,7 @@ $( function() {
 						<input type="radio" name="radio-1" id="radio-35">
 						<label for="radio-36">Food</label>
 						<input type="radio" name="radio-1" id="radio-36">
+<<<<<<< HEAD
 =======
 							
 							<button type="button" class="btn btn-primary btn-sm" id="1" name="Food" value="Food">Food</button>
@@ -185,6 +190,8 @@ $( function() {
 							<button type="button" class="btn btn-primary btn-sm" id="35" value="Weather">Weather</button>
 							
 >>>>>>> fbeabc716f9bea0399e92db3d517ad9fdf5931e8
+=======
+>>>>>>> 5071f1e198077a0be36991f018cad622115ec620
 						</fieldset>
 
 		</div>
@@ -193,7 +200,7 @@ $( function() {
 				<div class="content">
 					
 					<?php
-						$sql="SELECT * FROM tbl_images";
+						$sql="SELECT * FROM tbl_images WHERE group_category = 'Food'";
 						$result_set=mysql_query($sql);
 
 						if($result_set == FALSE)
@@ -216,12 +223,17 @@ $( function() {
 									</figcaption>
 									<div class="name"><?php echo $row['name'] ?></div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 								</figure>
 							</div><!--end dig gallery-->
 =======
 							</figure>
 							</div>
 >>>>>>> fbeabc716f9bea0399e92db3d517ad9fdf5931e8
+=======
+								</figure>
+							</div><!--end dig gallery-->
+>>>>>>> 5071f1e198077a0be36991f018cad622115ec620
 					<?php
 						}	
 					?>
@@ -235,9 +247,13 @@ $( function() {
   </div>
 	<!--end div wrapper-->
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> fbeabc716f9bea0399e92db3d517ad9fdf5931e8
+=======
+
+>>>>>>> 5071f1e198077a0be36991f018cad622115ec620
 </body>
 </html>
 <?php ob_end_flush(); ?>

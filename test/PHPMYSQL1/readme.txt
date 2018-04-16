@@ -21,3 +21,20 @@ tao form cho cac button | radio thuoc category.
 Note!:The information from that HTML page is stored in $_REQUEST, which is a
 special variable in PHP.	
 -------------------------------------------------------------------------------
+[String_PHP]
+	- strpos
+		
+		
+	- trim
+		: Remove whitespaces from both sides of a string.
+		: Remove characters from both sides of a string ("He" in "Hello" and "d!" in "World!")
+		<?php
+			$str = "Hello World!";
+			echo $str . "<br>";
+			echo trim($str,"Hed!");
+		?>
+		
+		: Remove newlines (\n) from both sides of a string.
+	-str_replace
+		str_replace(find,replace,string,count)
+		==> str_replace("world","Peter","Hello world!");
