@@ -25,6 +25,7 @@ Twitter Handle: <?php echo $twitter_handle; ?><br />
 -------------------------------------------------------------
 <a href="<?php echo $facebook_url; ?>">Your Facebook page</a><br />
 <a href="<?php echo $twitter_url; ?>">Check out your Twitter feed</a><br />
+<<<<<<< HEAD
 
 ---------------------------------------------------------------
  $value_cate = $_POST['value'];
@@ -259,3 +260,5 @@ Twitter Handle: <?php echo $twitter_handle; ?><br />
 ================================================================================
 
 
+=======
+>>>>>>> 8b85de62b0faf0b6c83c8b95264429522fe7a134
