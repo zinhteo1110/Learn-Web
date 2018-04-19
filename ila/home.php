@@ -148,6 +148,7 @@ $( function() {
 						<input type="radio" name="radio-1" value="Food" id="radio-36">
 						<input type="submit" name="action" value="Food">
 						<input type="submit" name="action" value="Transportation">
+						<input type="submit" name="action" value="Animal">
 						</form>	
 					</fieldset>
 
@@ -165,6 +166,10 @@ $( function() {
 						if(isset($_POST['action']) and $_POST['action'] == 'Transportation')
 						{
 							$sql="SELECT * FROM tbl_images WHERE group_category = 'Transportation'";
+						}
+						if(isset($_POST['action']) and $_POST['action'] == 'Animal')
+						{
+							$sql="SELECT * FROM tbl_images WHERE group_category = 'Animal'";
 						}
 							$result_set=mysql_query($sql);
 							if($result_set == FALSE)
@@ -206,4 +211,4 @@ $( function() {
 </body>
 </html>
 <?php ob_end_flush(); ?>
-<?php echo "Please choice any category above."; ?>
+
