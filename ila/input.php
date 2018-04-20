@@ -1,5 +1,24 @@
 <?php
-include_once 'dbconfig.php';
+//include_once 'dbconfig.php';
+// this will avoid mysql_connect() deprecation error.
+	error_reporting( ~E_DEPRECATED & ~E_NOTICE );
+	// but I strongly suggest you to use PDO or MySQLi.
+
+	define('DBHOST', 'localhost');
+	define('DBUSER', 'root');
+	define('DBPASS', 'noc;;ITS;;12345');
+	define('DBNAME', 'dbimage');
+
+	$conn = mysql_connect(DBHOST,DBUSER,DBPASS);
+	$dbcon = mysql_select_db(DBNAME);
+
+	if ( !$conn ) {
+		die("Connection failed : " . mysql_error());
+	}
+
+	if ( !$dbcon ) {
+		die("Database Connection failed : " . mysql_error());
+	}
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -35,7 +54,7 @@ include_once 'dbconfig.php';
 	else if(isset($_GET['fail']))
 	{
 		?>
-        <label>Problem While File Uploading! abcxyz...</label>  -->
+        <label>Problem While File Uploading! ABC...</label>  -->
         <?php
 	}
 	else

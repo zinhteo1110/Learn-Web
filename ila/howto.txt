@@ -1,0 +1,18 @@
+
+	navbar navbar-default navbar-fixed-top
+		container
+
+		navbar-header
+		navbar-brand
+		navbar-nav
+		navbar-right
+
+		wrapper
+			container
+				widget
+					<fieldset>
+						<label - radio>
+					</fieldset>
+					
+					content
+						

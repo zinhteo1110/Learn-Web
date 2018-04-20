@@ -1,0 +1,187 @@
+/*Base Styles*/
+
+form input, form select, form textarea {
+   display: block;
+}
+
+fieldset {
+
+}
+
+body {
+    margin: 10;
+    background-color: #fcfcfc; 
+    /*background-color:  #99ff66;*/
+    font-family: 'Playfair Display', serif;
+    width: 60%;
+}
+
+.block{
+    margin-bottom: -15px;
+ }
+
+#wrapper {
+    max-width: 64%;
+    margin: auto;
+
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/*Header Styles*/ 
+
+#title {
+    margin: 0;
+    padding: .5em;
+    text-align: center;
+    color: white;
+    background: #4c5059;
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    margin-bottom: -10px;
+}
+
+hr {
+   border: 1px solid black;
+   width: 95%;
+}
+
+.tp {
+    border: 3px solid black;
+}
+
+/*Form Styling*/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #999999;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    /* margin-bottom: 1em; */ /*1em=20px*/
+    margin-bottom: 2px;
+    color: #848484;
+}
+
+
+label.inline, input[type="checkbox"], input[type="radio"] {
+    display: inline;
+    margin-bottom: 1em;  /*1em=20px*/
+ /*  margin-bottom: 5px; */
+}
+
+button {
+    margin-bottom:;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: white;
+    background-color: #7bc4a4;
+}
+
+textarea {
+    height: 100px;
+}
+
+select {
+    height: 50px;
+}
+
+form {
+    margin-bottom: 12em;
+}
+
+span {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    margin-top: 17px;
+    color: #a7aaa9;
+}
+
+#top {
+    margin-top: .9em
+}
+
+input[type="checkbox"] {
+    margin-right: 1em;
+}
+
+#zipcode {
+    width: 50%;
+}
+
+input::-webkit-input-placeholder {
+  color: #999999;
+  font-style: italic;
+  text-align: right;
+}
+
+input:focus {
+     border: 2px solid darkgray;
+}
+
+/*Media Query*/
+
+@media (min-width: 768px) {
+
+    #wrapper {
+        max-width: 80%;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    header {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    input, select {
+       max-width: 40%;
+    }
+
+    #tab, input, select {
+        display: inline;
+    }
+
+
+}

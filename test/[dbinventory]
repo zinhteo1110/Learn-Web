@@ -1,0 +1,20 @@
+[dbinventory]
+	[server]
+	- serverId int (11) pri auto_increment;
+	- serverName varchar(30)
+	- ip varchar(15)
+	- model varchar(20)
+	- CPU varchar(20)
+	- Cores int(5)
+	- HDD varchar(20)
+	- Raid varchar(20)
+	- Rack varchar(5)
+	- Units varchar(5)
+	- Serial varchar(20)
+	- IP_iLO varchar(15)
+	- VLAN int(5);
+	- KVM_Note varchar(30) null
+	- MAC_eth0 varchar(20)
+	- Switch varchar(15)
+	- Port varchar(10)
+	- Note varchar (50) null

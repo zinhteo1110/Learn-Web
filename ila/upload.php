@@ -4,14 +4,14 @@ if(isset($_POST['btn-upload']))
 {    
      
 	$file = rand(1000,100000)."-".$_FILES['file']['name'];
-    $file_loc = $_FILES['file']['tmp_name'];
+             $file_loc = $_FILES['file']['tmp_name'];
 	$file_size = $_FILES['file']['size'];
 	$file_type = $_FILES['file']['type'];
 	$file_feature = $_POST['feature'];
 	$file_name = $_POST['name'];
 	$file_descript = $_POST['descript'];
 	$file_group = $_POST['group_category'];
-	$folder="assets/images/food/";
+	$folder="assets/images/transportation/";
 	
 	// new file size in KB
 	$new_size = $file_size/1024;  
@@ -36,7 +36,7 @@ if(isset($_POST['btn-upload']))
 	{
 		?>
 		<script>
-		alert('error while uploading file >"<');
+		alert('error while uploading file >"< zzz so sad');
         window.location.href='input.php?fail';
         </script>
 		<?php

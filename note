@@ -1,0 +1,358 @@
+<p>
+First Name: <?php echo $_REQUEST['first_name']; ?><br />
+Last Name: <?php echo $_REQUEST['last_name']; ?><br />
+E-Mail Address: <?php echo $_REQUEST['email']; ?><br />
+Facebook URL: <?php echo $_REQUEST['facebook_url']; ?><br />
+Twitter Handle: <?php echo $_REQUEST['twitter_handle']; ?><br />
+</p>
+----------------------------------------------------------------
+<?php
+$first_name = $_REQUEST['first_name'];
+$last_name = $_REQUEST['last_name'];
+$email = $_REQUEST['email'];
+$facebook_url = $_REQUEST['facebook_url'];
+$twitter_handle = $_REQUEST['twitter_handle'];
+?>
+----------------------------------------------------------------
+<p>
+First Name: <?php echo $first_name; ?><br />
+Last Name: <?php echo $last_name; ?><br />
+E-Mail Address: <?php echo $email; ?><br />
+Facebook URL: <?php echo $facebook_url; ?><br />
+Twitter Handle: <?php echo $twitter_handle; ?><br />
+</p>
+
+-------------------------------------------------------------
+<a href="<?php echo $facebook_url; ?>">Your Facebook page</a><br />
+<a href="<?php echo $twitter_url; ?>">Check out your Twitter feed</a><br />
+
+---------------------------------------------------------------
+ $value_cate = $_POST['value'];
+                                                if (isset($_POST['radio-1']) /* and (isset($value_cate)) */
+                                                {
+                                                        $sql="SELECT * FROM tbl_images WHERE group_category = $value_cate";
+                                                }
+                                                else if (isset($_POST['radio-1']) /* and (isset($value_cate)) */
+                                                {
+                                                        $sql="SELECT * FROM tbl_images WHERE group_category = $value_cate";
+                                                }
+--------------------------------------------------------------------
+.../WEB/Learn-WEB/ila/home.php
+
+<?php
+					
+						/*
+						if (isset($_POST['radio-1'])  and (isset($value_category)) 
+						{
+							$sql="SELECT * FROM tbl_images WHERE group_category = $value_category";
+						}
+						else if (isset($_POST['radio-1'])  and (isset($value_category)) 
+						{
+							$sql="SELECT * FROM tbl_images WHERE group_category = $value_category";
+						}
+						*/
+						$sql="SELECT * FROM tbl_images WHERE group_category = 'Food'";
+						//$sql="SELECT * FROM tbl_images WHERE group_category = $_POST['value']";
+						$result_set=mysql_query($sql);
+
+						if($result_set == FALSE)
+						{
+							die(mysql_error());
+						}
+
+						while($row=mysql_fetch_array($result_set))
+						{
+
+					?>
+==> FAILED.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.../WEB/Learn-WEB/ila/home.php
+
+					<!--test get value submit-->
+					<?php
+						if(isset($_POST['action']) and $_POST['action'] == 'Food')
+						{	
+							$sql="SELECT * FROM tbl_images WHERE group_category = 'Food'";
+
+							$result_set=mysql_query($sql);
+							if($result_set == FALSE)
+							{
+								die(mysql_error());
+							}
+
+							while($row=mysql_fetch_array($result_set))
+							{
+
+					?>
+								<div class="gallery">
+									<figure>
+										<a target="_blank" href="<?php echo $row['file'] ?>">
+										<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
+										</a>
+										<figcaption>
+											<h4><?php echo $row['feature'] ?></h4>
+		                								<p><?php echo $row['descript'] ?></p>
+										</figcaption>
+										<div class="name"><?php echo $row['name'] ?></div>
+									</figure>
+									
+								</div><!--end dig gallery-->
+						<?php
+							}	
+						}
+						?>
+==> FAILED.						
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.../WEB/Learn-WEB/ila/home.php
+
+<div class="content">
+					<!--test get value Food submit-->
+					<?php
+						if(isset($_POST['action']) and $_POST['action'] == 'Food')
+						{	
+							$sql="SELECT * FROM tbl_images WHERE group_category = 'Food'";
+
+							$result_set=mysql_query($sql);
+							if($result_set == FALSE)
+							{
+								die(mysql_error());
+							}
+
+							while($row=mysql_fetch_array($result_set))
+							{
+
+					?>
+								<div class="gallery">
+									<figure>
+										<a target="_blank" href="<?php echo $row['file'] ?>">
+										<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
+										</a>
+										<figcaption>
+											<h4><?php echo $row['feature'] ?></h4>
+		                								<p><?php echo $row['descript'] ?></p>
+										</figcaption>
+										<div class="name"><?php echo $row['name'] ?></div>
+									</figure>
+									
+								</div><!--end dig gallery-->
+						<?php
+							}	
+						}
+						?>
+					<!--end test get value Food submit-->
+
+					<!--test get value Transportation submit-->
+					<?php
+						if(isset($_POST['action']) and $_POST['action'] == 'Transportation')
+						{	
+							$sql="SELECT * FROM tbl_images WHERE group_category = 'Transportation'";
+
+							$result_set=mysql_query($sql);
+							if($result_set == FALSE)
+							{
+								die(mysql_error());
+							}
+
+							while($row=mysql_fetch_array($result_set))
+							{
+
+					?>
+								<div class="gallery">
+									<figure>
+										<a target="_blank" href="<?php echo $row['file'] ?>">
+										<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
+										</a>
+										<figcaption>
+											<h4><?php echo $row['feature'] ?></h4>
+		                								<p><?php echo $row['descript'] ?></p>
+										</figcaption>
+										<div class="name"><?php echo $row['name'] ?></div>
+									</figure>
+									
+								</div><!--end dig gallery-->
+						<?php
+							}	
+						}
+						?>	
+					<!--end test get value Transportation submit-->
+
+					<?php
+					
+						$sql="SELECT * FROM tbl_images";
+						$result_set=mysql_query($sql);
+						if($result_set == FALSE)
+						{
+							die(mysql_error());
+						}
+
+						while($row=mysql_fetch_array($result_set))
+						{
+
+					?>
+							<div class="gallery">
+								<figure>
+									<a target="_blank" href="<?php echo $row['file'] ?>">
+									<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
+									</a>
+									<figcaption>
+										<h4><?php echo $row['feature'] ?></h4>
+	                								<p><?php echo $row['descript'] ?></p>
+									</figcaption>
+									<div class="name"><?php echo $row['name'] ?></div>
+								</figure>
+								
+							</div><!--end dig gallery-->
+					<?php
+						}	
+					?>
+
+				</div>
+				<!--end div content-->
+==> FAILED.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+../WEB/Learn-WEB/ila/home.php
+
+<div class="content">
+					<!--test get value Food & Transportation submit-->
+					<?php
+						if(isset($_POST['action']) and $_POST['action'] == 'Food')
+						{	
+							$sql="SELECT * FROM tbl_images WHERE group_category = 'Food'";
+						}
+						if(isset($_POST['action']) and $_POST['action'] == 'Transportation')
+						{
+							$sql="SELECT * FROM tbl_images WHERE group_category = 'Transportation'";
+						}
+							$result_set=mysql_query($sql);
+							if($result_set == FALSE)
+							{
+								die(mysql_error());
+							}
+
+							while($row=mysql_fetch_array($result_set))
+							{
+
+					?>
+								<div class="gallery">
+									<figure>
+										<a target="_blank" href="<?php echo $row['file'] ?>">
+										<img src="<?php echo $row['file'] ?>" alt="<?php echo $row['group_category'] ?>">
+										</a>
+										<figcaption>
+											<h4><?php echo $row['feature'] ?></h4>
+		                								<p><?php echo $row['descript'] ?></p>
+										</figcaption>
+										<div class="name"><?php echo $row['name'] ?></div>
+									</figure>
+									
+								</div><!--end dig gallery-->
+						<?php
+							}	
+						?>
+					<!--end test get value Food & Transportation submit-->
+
+				</div>
+				<!--end div content-->
+
+==> OK
+==> OK
+=======================================================================
+.../WEB/Learn-Web/ila/stype.css
+
+div.gallery figure {
+  position:relative;
+  cursor:pointer;
+	width: 150px;
+	height: 210px;
+}
+
+div.gallery figure img {
+	margin: 0px;
+	padding:0px;
+	width: 150px;
+	height: 170px;
+	display:block;
+  position:relative;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+  z-index:10;
+}
+
+===============================================================
+.../WEB/Learn-Web/test/scripts/input.php
+
+<div id="body">
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Information Server's Hardware:</legend>
+		<p>
+			<label>serverName:</label>
+			<input type="text" name="serverName"><br>
+		</p>
+		<p>
+			<label>IP:</label>
+			<input type="text" name="IP"><br>
+		</p>
+		<p>
+			<label>Model:</label>
+			<input type="text" name="Model"><br> 
+		</p>
+		<p>
+			<label>CPU:</label>
+			<input type="text" name="CPU"><br>
+		</p>
+		<p>
+			<label>Cores:</label>
+			<input type="text" name="Cores"><br>
+		</p>
+		<p>
+			<label>HDD:</label>
+			<input type="text" name="HDD"><br>
+		</p>
+		<p>
+			<label>Raid:</label>
+			<input type="text" name="Raid"><br>
+		</p>
+		<p>
+			<label>Rack:</label>
+			<input type="text" name="Rack"><br>
+		</p>
+		<p>
+			<label>Units:</label>
+			<input type="text" name="Units"><br>
+		</p>
+		<p>
+			<label>Serial:</label>
+			<input type="text" name="Serial"><br>
+		</p>
+		<p>
+			<label>IP_iLO:</label>
+			<input type="text" name="IP_iLO"><br>
+		</p>
+		<p>
+			<label>VLAN:</label>
+			<input type="text" name="VLAN"><br>
+		</p>
+		<p>
+			<label>KVM_Note:</label>
+			<input type="text" name="KVM_Note"><br>
+		</p>
+		<p>
+			<label>MAC_eth0:</label>
+			<input type="text" name="MAC_eth0"><br>
+		</p>
+		<p>
+			<label>Switch:</label>
+			<input type="text" name="Switch"><br>
+		</p>
+		<p>
+			<label>Port:</label>
+			<input type="text" name="Port"><br>
+		</p>
+		<p>
+			<label>Note:</label>
+			<input type="text" name="Note"><br>
+		</p>
+			<input type="file" name="file" />
+			<button type="submit" name="btn-upload">upload</button>
+	</fieldset>
+	</form>

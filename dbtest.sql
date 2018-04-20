@@ -8,7 +8,7 @@
 -- PHP Version: 5.5.9-1ubuntu4.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+SET time_zone = "+07:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -46,3 +46,24 @@ INSERT INTO `users` (`userId`, `userName`, `userEmail`, `userPass`) VALUES
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+CREATE TABLE IF NOT EXIST `servers` (
+ `serverId` int(11) NOT NULL AUTO_INCREMENT,
+ `serverName` varchar(30) NOT NULL,
+ `IP` varchar(15),
+ `Model` varchar(20),
+ `CPU` varchar(20),
+ `Cores` int(5),
+ `HDD` varchar(20), 
+ `Raid` varchar(20),
+ `Rack` varchar(5),
+ `Units` varchar(5),
+ `Serial` varchar(20),
+ `IP_iLO` varchar(15),
+ `VLAN` init(5),
+ `KVM_Note` varchar(30),
+ `MAC_eth0` varchar(20),
+ `Switch` varchar(15),
+ `Port` varchar(10),
+ `Note` varchar(50)
+)

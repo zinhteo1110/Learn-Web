@@ -1,2 +1,0 @@
-AJAX = Asynchronous JavaScript and XML
-HTML= Hyper Text Markup Language
