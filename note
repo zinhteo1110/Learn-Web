@@ -26,7 +26,6 @@ Twitter Handle: <?php echo $twitter_handle; ?><br />
 <a href="<?php echo $facebook_url; ?>">Your Facebook page</a><br />
 <a href="<?php echo $twitter_url; ?>">Check out your Twitter feed</a><br />
 
-
 ---------------------------------------------------------------
  $value_cate = $_POST['value'];
                                                 if (isset($_POST['radio-1']) /* and (isset($value_cate)) */
@@ -257,7 +256,103 @@ Twitter Handle: <?php echo $twitter_handle; ?><br />
 
 ==> OK
 ==> OK
-================================================================================
+=======================================================================
+.../WEB/Learn-Web/ila/stype.css
 
+div.gallery figure {
+  position:relative;
+  cursor:pointer;
+	width: 150px;
+	height: 210px;
+}
 
+div.gallery figure img {
+	margin: 0px;
+	padding:0px;
+	width: 150px;
+	height: 170px;
+	display:block;
+  position:relative;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+  z-index:10;
+}
 
+===============================================================
+.../WEB/Learn-Web/test/scripts/input.php
+
+<div id="body">
+	<form action="upload.php" method="post" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Information Server's Hardware:</legend>
+		<p>
+			<label>serverName:</label>
+			<input type="text" name="serverName"><br>
+		</p>
+		<p>
+			<label>IP:</label>
+			<input type="text" name="IP"><br>
+		</p>
+		<p>
+			<label>Model:</label>
+			<input type="text" name="Model"><br> 
+		</p>
+		<p>
+			<label>CPU:</label>
+			<input type="text" name="CPU"><br>
+		</p>
+		<p>
+			<label>Cores:</label>
+			<input type="text" name="Cores"><br>
+		</p>
+		<p>
+			<label>HDD:</label>
+			<input type="text" name="HDD"><br>
+		</p>
+		<p>
+			<label>Raid:</label>
+			<input type="text" name="Raid"><br>
+		</p>
+		<p>
+			<label>Rack:</label>
+			<input type="text" name="Rack"><br>
+		</p>
+		<p>
+			<label>Units:</label>
+			<input type="text" name="Units"><br>
+		</p>
+		<p>
+			<label>Serial:</label>
+			<input type="text" name="Serial"><br>
+		</p>
+		<p>
+			<label>IP_iLO:</label>
+			<input type="text" name="IP_iLO"><br>
+		</p>
+		<p>
+			<label>VLAN:</label>
+			<input type="text" name="VLAN"><br>
+		</p>
+		<p>
+			<label>KVM_Note:</label>
+			<input type="text" name="KVM_Note"><br>
+		</p>
+		<p>
+			<label>MAC_eth0:</label>
+			<input type="text" name="MAC_eth0"><br>
+		</p>
+		<p>
+			<label>Switch:</label>
+			<input type="text" name="Switch"><br>
+		</p>
+		<p>
+			<label>Port:</label>
+			<input type="text" name="Port"><br>
+		</p>
+		<p>
+			<label>Note:</label>
+			<input type="text" name="Note"><br>
+		</p>
+			<input type="file" name="file" />
+			<button type="submit" name="btn-upload">upload</button>
+	</fieldset>
+	</form>
