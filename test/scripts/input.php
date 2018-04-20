@@ -32,9 +32,9 @@
 <div id="header">
 <pre>
 <h2>
-       /--------\	
-|INPUT DATA|
-\---------/
+    /=========\	
+   |INPUT DATA|
+   \=========/
  </h2>
 </pre>
 </div>
