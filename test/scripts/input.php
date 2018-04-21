@@ -23,7 +23,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Input Properties image</title>
+<title>INPUT INVENTORY</title>
 <!--link rel="stylesheet" href="../css/style.css" type="text/css" /-->
 <link rel="stylesheet" href="../css/main.css" type="text/css" />
 </head>
@@ -39,7 +39,7 @@
 </pre>
 </div>
 <div id="body">
-	<form action="upload.php" method="post" enctype="multipart/form-data">
+	<form action="insert.php" method="post" enctype="multipart/form-data">
 	<fieldset>
 		<legend>Information Server's Hardware:</legend>
 		<!--h3>Information Server's Hardware:</h3-->
@@ -80,8 +80,8 @@
 			<input type="text" name="Units"><br>
 		</div>
 		<div class="block">
-			<label>Serial:</label>
-			<input type="text" name="Serial"><br>
+			<label>Serial_Number:</label>
+			<input type="text" name="Serial_Number"><br>
 		</div>
 		<div class="block">
 			<label>IP_iLO:</label>
@@ -111,6 +111,7 @@
 			<label>Note:</label>
 			<input type="text" name="Note"><br>
 		</div>
+			
 			<input type="file" name="file" />
 			<button type="submit" name="btn-upload">SAVE</button>
 	</fieldset>
