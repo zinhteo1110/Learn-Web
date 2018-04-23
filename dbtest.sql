@@ -47,7 +47,7 @@ INSERT INTO `users` (`userId`, `userName`, `userEmail`, `userPass`) VALUES
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
-CREATE TABLE IF NOT EXIST `servers` (
+CREATE TABLE IF NOT EXISTS `server` (
  `serverId` int(11) NOT NULL AUTO_INCREMENT,
  `serverName` varchar(30) NOT NULL,
  `IP` varchar(15),
@@ -60,10 +60,12 @@ CREATE TABLE IF NOT EXIST `servers` (
  `Units` varchar(5),
  `Serial` varchar(20),
  `IP_iLO` varchar(15),
- `VLAN` init(5),
+ `VLAN` int(5),
  `KVM_Note` varchar(30),
  `MAC_eth0` varchar(20),
  `Switch` varchar(15),
  `Port` varchar(10),
- `Note` varchar(50)
-)
+ `Note` varchar(50),
+ PRIMARY KEY (`serverId`),
+ UNIQUE KEY `IP` (`IP`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=3;
