@@ -28,6 +28,25 @@ Twitter Handle: <?php echo $twitter_handle; ?><br />
 
 ---------------------------------------------------------------
  $value_cate = $_POST['value'];
+
+ HP Proliant DL160 G6 Server
+ HP Proliant DL380 G5 Server
+ HP Proliant DL360 G7 Server
+ HP Proliant DL360p G8 Server
+ Intel S5000PAL Server
+ Dell PowerEdge R420 Server
+ Dell PowerEdge R430 Server
+ Dell PowerEdge R710 Server
+ Dell PowerEdge R720xd Server
+ Dell PowerEdge R730xd Server
+
+
+
+
+
+
+
+
                                                 if (isset($_POST['radio-1']) /* and (isset($value_cate)) */
                                                 {
                                                         $sql="SELECT * FROM tbl_images WHERE group_category = $value_cate";
