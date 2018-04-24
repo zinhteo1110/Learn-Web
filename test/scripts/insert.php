@@ -4,7 +4,7 @@ if(isset($_POST['btn-upload']))
 { 	
 	//dat ten random [1000-100000+filename]
 	$file = rand(1000,100000)."-".$_FILES['file']['name'];
-    $file_loc = $_FILES['file']['tmp_name'];
+             $file_loc = $_FILES['file']['tmp_name'];
 	$file_size = $_FILES['file']['size'];
 	$file_type = $_FILES['file']['type'];
 	//get value cua form thong qua $_POST
@@ -56,5 +56,8 @@ if(isset($_POST['btn-upload']))
 		<?php
 	}
 }
+<<<<<<< HEAD
 ?>
+=======
+>>>>>>> 7ad20df22933556f8eb722b5c41294345bd650f5
 
