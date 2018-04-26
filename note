@@ -1,0 +1,42 @@
+--Mode						| --Cores	--Thread	--Cache		--PBF(Processor Base Frequency)
+	
+HP Proliant DL160 G5 Server 		E5620		4	8		12M		2.4 Ghz
+HP Proliant DL160 G6 Server		E5504		4	4		4M		2.0 Ghz
+HP Proliant DL380 G5 Server		E5-2630 v2	6	12		15M		2.6 Ghz	
+HP Proliant DL360 G7 Server		E5-2620	6	12		15M		2.0 Ghz
+HP Proliant DL360p G8 Server		E5-2620 v3	6	12		15M		2.4 Ghz
+HP Proliant DL380 G6 Server		E5-2630 v4	10	20		25M		2.2 Ghz	
+HP ProLiant ML350 G6 Server		
+Intel S5000PAL Server
+Intel SR1550
+Dell PowerEdge R420 Server
+Dell PowerEdge R430 Server
+Dell PowerEdge R710 Server
+Dell PowerEdge R720xd Server
+Dell PowerEdge R730xd Server
+
+==========================================
+		--Cores		--Thread	--Cache		--PBF(Processor Base Frequency)
+
+E5620		4		8		12M		2.4 Ghz
+E5504		4		4		4M		2.0 Ghz
+E5-2420 v2	6		12		15M		2.2 Ghz
+E5-2630 v2	6		12		15M		2.6 Ghz	
+E5-2620	6		12		15M		2.0 Ghz
+E5-2620 v3	6		12		15M		2.4 Ghz
+E5-2630 v4	10		20		25M		2.2 Ghz
+E5-2640 v2	8		16		20M		2.0 Ghz	
+E5310		4		N/A		8M		1.6 Ghz
+E5640		4		8		12M		2.66 Ghz
+E5335		4		N/A		8M		2.0 Ghz
+E5345		4		N/A		8M		2.33 Ghz
+E5405		4		N/A		12M		2.0 Ghz
+E5530		4		8		8M		2.4 Ghz
+E5540 		4		8		8M		2.53 Ghz
+E5640 		4		8		12M		2.66 Ghz
+E5645 		6		12		12M		2.4 Ghz
+X5650 		6		12		12M		2.66 Ghz
+X5670		6		12		12M		2.93 Ghz
+5160		2		N/A		4M		3.0 Ghz
+
+

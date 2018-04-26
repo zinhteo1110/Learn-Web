@@ -1,0 +1,50 @@
+In 2016, a website isn’t complete without the following:
+
+1. Mobile First: responsive mobile-friendly design that can be used on different devices - ideally designed with mobile as the foundation
+
+2. Fast Loading: quick loading times for users on all devices even with slow internet connections
+
+3. Tracking Enabled: web analytics tracking traffic as well as goals and conversions
+
+4. SEO Ready: all important on-page SEO tags and elements, including schema and XML sitemaps
+
+5. Conversion Optimized: tools for clients to create campaign landing pages with conversion in mind
+
+6. Powered by CMS: a back-end Content Management System that enables publishing and editing content
+
+7. Email Marketing: email capture forms synced with client’s email marketing system
+
+8. Social Media: integration with relevant social media platforms
+
+9. Strong Security: fundamental security and privacy protocols, such as basic security checks
+
+=========================================================================
+
+2018 Website Feature Checklist
+
+
+Ready to put an actionable plan in place to redefine the new normal for 2018 sites? Here are nine non-negotiable standards (and two bonus tips) to implement on your site:
+
+1. Fast Loading -- No one wants to wait (and wait and wait) for your site to load. Design sites with prompt loading times for all users on all devices (even the ones with slower Internet connections). You can use Pingdom or Pagespeed Insights by Google to check your website speed and see how you can improve.
+
+2. Mobile Ready -- Virtually everyone uses smart devices on a daily basis. Create an engaging, mobile-friendly design that your audience can access whenever they want, wherever they roam.
+
+3. Tracking Enabled -- Analytics matter - it’s the best way to determine that your website is actually doing its job. The final design should include functionality to gauge key indicators such as traffic, goals, and conversions.
+
+4. SEO Savvy -- Don’t underestimate the power of optimizing your site for both browsers and humans. Develop compelling, readable content for your followers. For the search engines, always include all important on-page SEO tags and elements, including schema and XML sitemaps.
+
+5. Enabled CMS -- We aren’t quite done with the power of the written word just yet. Consistently publishing fresh, original content not only captivates your audience, it can deliver invaluable, long-term digital marketing momentum. Include a back-end Content Management System in the design so clients can post and edit content as needed.
+
+6. Conversion Optimized -- Have a conversion-centric client? Implement tools for creating campaign landing pages into your design. These designated pages can keep your readers moving through your site and direct them to schedule an appointment, request a product demonstration, and even make a purchase.
+
+7. Email Marketing -- Yes, email marketing is still a thing - and a highly effective thing at that. A site’s email capture forms should sync with the client’s email marketing system for seamless access and connection.
+
+8. Social Media -- Never miss an opportunity to leverage the power of social media. Integrate all relevant social media platforms within your design. Allowing users to quickly access social media pages from the website instantly broadens a brand’s reach and helps increase visibility and traffic.
+
+9. Strong Security -- Never compromise on-site security. Every design should include fundamental security and privacy protocols, such as basic security checks, to protect client and user data.
+
+This concludes the non-negotiable portion of our 2018 website design guidelines. However, there are two bonus tips to consider when creating a site:
+
+10. Progressive Web Apps -- Savvy web designers, intrigued by the impact apps have on mobile media platforms, have successfully blended the very best web and app features into a hybrid known as Progressive Web Apps. Expect to see Progressive Web Apps out in full force throughout 2018. As a developer, consider including various features into your design such as splash screens, push notifications, and animated page transitions to elevate overall UX.
+
+11. Machine Learning And Artificial Intelligence -- Yes, really. Artificial intelligence is no longer a futuristic, high-tech term and has successfully worked its way into our everyday vernacular and online experience. Don’t believe me? Have you ever posed a question to Siri or Alexa? I rest my case. Adobe’s Sensei is delivering AI tools to various web design platforms worldwide, making it a more accessible, available resource.
