@@ -1,7 +1,7 @@
 <?php
 include_once 'dbconnect.php';
 if(isset($_POST['btn-upload']))
-{ 	
+{
 	//dat ten random [1000-100000+filename]
 	$file = rand(1000,100000)."-".$_FILES['file']['name'];
              $file_loc = $_FILES['file']['tmp_name'];
@@ -29,16 +29,16 @@ if(isset($_POST['btn-upload']))
 	$folder="../images/";
 
 	// new file size in KB
-	$new_size = $file_size/1024;  
-		
+	$new_size = $file_size/1024;
+
 	// make file name in lower case
 	$new_file_name = strtolower($file);
-		
+
 	$final_file=str_replace(' ','-',$new_file_name);
-		
+
 	if(move_uploaded_file($file_loc,$folder.$final_file))
 	{
-		$sql="INSERT INTO server(serverName,IP,Model,CPU,Num_Physical_CPU,Cores,HDD,Raid,Rack,Units,Serial_Number,IP_iLO,VLAN,KVM_Note,MAC_eth0,Switch,Port,Note,file) VALUES('$serverName','$IP','$Model','$CPU','$Num_Physical_CPU'$Cores','$HDD','$Raid','$Rack','$Units','$Serial_Number','$IP_iLO','$VLAN','$KVM_Note','$MAC_eth0','$Switch','$Port','$Note','$folder$final_file')";
+		$sql="INSERT INTO server(serverName,IP,Model,CPU,Num_Physical_CPU,Cores,HDD,Raid,Rack,Units,Serial_Number,IP_iLO,VLAN,KVM_Note,MAC_eth0,Switch,Port,Note,file) VALUES('$serverName','$IP','$Model','$CPU','$Num_Physical_CPU','$Cores','$HDD','$Raid','$Rack','$Units','$Serial_Number','$IP_iLO','$VLAN','$KVM_Note','$MAC_eth0','$Switch','$Port','$Note','$folder$final_file')";
 		mysql_query($sql);
 		?>
 		<script>
@@ -58,5 +58,3 @@ if(isset($_POST['btn-upload']))
 	}
 }
 ?>
-
-
