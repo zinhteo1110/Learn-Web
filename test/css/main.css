@@ -1,5 +1,35 @@
 /*Base Styles*/
 
+#grid {
+    display:grid;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+#block-1 {
+  border: 1px solid #green;
+}
+
+#block-1 {
+  border: 1px solid #yellow;
+  grid-column: 2;
+}
+
+#block-3 {
+  border: 1px solid #red;
+  grid-column:3;
+}
+
+#wrapper {
+  /*test width cua wrapper bang cach the hien border*/
+  border: solid 2px #66ff66;
+    /* max-width: 64%; */
+    max-width: 100%;
+    margin: auto;
+
+}
+
 form input, form select, form textarea {
    display: block;
 }
@@ -11,20 +41,15 @@ fieldset {
 body {
     margin: 10;
     background-color: #fcfcfc; 
+    /*background-color:  #fcfcfc;*/
     /*background-color:  #99ff66;*/
     font-family: 'Playfair Display', serif;
-    width: 60%;
+    width: 100%;
 }
 
 .block{
     margin-bottom: -15px;
  }
-
-#wrapper {
-    max-width: 64%;
-    margin: auto;
-
-}
 
 h2 {
     font-size: 1.8em;
@@ -107,7 +132,7 @@ label.inline, input[type="checkbox"], input[type="radio"] {
 }
 
 button {
-    margin-bottom:;
+    margin-bottom:5px;
     padding: 20px;
     width: 100%;
     border-radius: 5px;
@@ -164,6 +189,7 @@ input:focus {
 
     #wrapper {
         max-width: 80%;
+        /*max-width: 60%;*/
     }
 
     hr {
@@ -177,6 +203,7 @@ input:focus {
 
     input, select {
        max-width: 40%;
+       /* max-width: 55%; */
     }
 
     #tab, input, select {
