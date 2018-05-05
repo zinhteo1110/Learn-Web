@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<?php 
+<?php
 	//include_once 'dbconnect.php';
 	$servername = "localhost";
 	$username = "root";
@@ -24,10 +24,10 @@
 	//output data of each row
 		while($row = $result->fetch_assoc()) {
 			echo "serverName: " . $row["serverName"] . "IP: " . $row["IP"] . "Model: " . $row["Model"] . "CPU: " . $row["CPU"] . "Switch: " . $row["Switch"] . "Port: " . $row["Port"] . "<br>";
-		} 
+		}
 	} else {
 		echo "0 results";
-	}	
+	}
 	$conn->close();
 ?>
 
