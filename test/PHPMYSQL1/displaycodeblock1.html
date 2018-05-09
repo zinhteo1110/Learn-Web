@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 	<head>
 	<title>Link Test</title>
@@ -46,4 +47,54 @@
 }) ();
 		</script>
 	</body>
+=======
+<html>
+	<head>
+	<title>Link Test</title>
+	<link rel="stylesheet" href="/css/test1.css" type="text/css" />
+	</head>
+	<body>
+		<p>Practice - How to show code blocks on the page website!.</p><br />
+		<a id="mylink" href="http://testphp01.ias/displaycodeblock.html">Click me</a><br />
+		<script>
+			url = document.links.mylink.href
+			document.write('The URL is ' + url)
+		</script>
+		<h6>With contents of code blocks below:</h6><br />
+		<!--Cach nay cu chuoi qua, phai viet tung cai <code>xxx</code> -->
+		<pre>
+			<code>dong Code 1</code>
+			<code>dong Code 2</code>
+			<code>dong Code 3</code>
+			<code>dong Code 4</code>
+			<code>dong Code 5</code>
+			<code>dong Code 6</code>
+			<code>dong Code 7</code>
+			<code>dong Code 8</code>
+			<code>dong Code 9</code>
+			<code>dong Code 10</code>
+			<code>dong Code 11</code>
+			<code>dong Code 12</code>
+		</pre>
+			<h5>Show another code</h5>
+		<pre>
+			<code><html></code>
+			<p>Failed. Try another way. ==> Let's open your source code</p>
+		</pre>
+		<script>
+			(function() {
+				var pre = document.getElementsByTagName('pre'),
+				pl = pre.length;
+				for (var i = 0; i < pl; i++) {
+				pre[i].innerHTML = '<span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span>';
+		    		var num = pre[i].innerHTML.split(/\n/).length;
+		   		 for (var j = 0; j < (num - 1); j++) {
+		      			var line_num = pre[i].getElementsByTagName('span')[0];
+		    			  line_num.innerHTML += '<span>' + (j + 1) + '</span>';	
+		}
+	}
+}) ();
+		</script>
+	</body>
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b
 </html>

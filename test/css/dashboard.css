@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table {
 	border: solid 1px blue;
 }
@@ -12,3 +13,19 @@ td {
 	width: auto;
 	border: 1px solid blue;
 }
+=======
+table {
+	border: solid 1px blue;
+}
+
+th {
+	font-size: 18px;
+	background-color: #66ff66;
+	color:#ffffff;
+}
+
+td {
+	width: auto;
+	border: 1px solid blue;
+}
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b

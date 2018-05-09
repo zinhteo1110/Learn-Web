@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 	navbar navbar-default navbar-fixed-top
 		container
@@ -15,4 +16,23 @@
 					</fieldset>
 					
 					content
+=======
+
+	navbar navbar-default navbar-fixed-top
+		container
+
+		navbar-header
+		navbar-brand
+		navbar-nav
+		navbar-right
+
+		wrapper
+			container
+				widget
+					<fieldset>
+						<label - radio>
+					</fieldset>
+					
+					content
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b
 						

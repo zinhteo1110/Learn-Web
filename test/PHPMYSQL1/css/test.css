@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pre {
 	counter-reset: line;	
 }
@@ -15,4 +16,23 @@ code::before {
 	margin-right: .5em;
 	color: #888;
 	-webkit-user-select: none;
+=======
+pre {
+	counter-reset: line;	
+}
+
+code {
+	counter-increment: line;
+}
+
+code::before {
+	content: counter(line);
+	display: inline-block;
+	width: 1.5em; /* Fixed width */
+	border-right: 1px solid #ddd;
+	padding: 0 .5em;
+	margin-right: .5em;
+	color: #888;
+	-webkit-user-select: none;
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [How to update Column]
   mysql> alter table 'table_name' modify 'colum_name' <new_value>;
 
@@ -7,3 +8,14 @@
 ============================================================================================
 [How to export value database in mysql]
 ==>   mysqldump -u [username] -p [database name] > [database name].sql
+=======
+[How to update Column]
+  mysql> alter table 'table_name' modify 'colum_name' <new_value>;
+
+  example:
+  mysql> alter table isup_capture_all_20171215 modify msg varchar(2000) not null default '';
+
+============================================================================================
+[How to export value database in mysql]
+==>   mysqldump -u [username] -p [database name] > [database name].sql
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b

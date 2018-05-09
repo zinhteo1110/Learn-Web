@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* css for file ...WEB/Learn-Web/test/scripts/input.php*/
 nav {
 	display: block;
@@ -100,4 +101,108 @@ input {
 
 div#body{
 	width:600px;
+=======
+/* css for file ...WEB/Learn-Web/test/scripts/input.php*/
+nav {
+	display: block;
+	margin-bottom: 10px;
+}
+
+nav ul {
+	list-style: none;
+	font-size: 14px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	display: block;
+	float: left;
+	padding: 3px 6px;
+	color: #575c7d;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	background: #deff90;
+	color: #485e0f;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 3px 6px;
+	margin: 0;
+	text-decoration: none;
+}
+
+/* page core */
+div#core {
+  display: block;
+  clear: both;
+  margin-bottom: 20px;
+}
+section#left {
+  width: 550px;
+  float: left;
+  margin: 0 15px;
+}
+section#right {
+  float: left;
+  width: 300px;
+}
+ 
+  
+/* clearfix */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+  
+html[xmlns] .clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
+
+legend {
+	border: 1px solid white;
+}
+
+.block label {
+	display: inline-block;
+	padding: 5px;
+	text-align: right;
+	width: 100px;
+}
+
+input {
+    border: 1px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    margin: 6px 0 6px 30px;
+    width: 350px;
+}
+
+div#body{
+	width:600px;
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b
 }

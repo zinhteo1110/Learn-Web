@@ -26,37 +26,19 @@
 <title>INPUT INVENTORY</title>
 <!--link rel="stylesheet" href="../css/style.css" type="text/css" /-->
 <link rel="stylesheet" href="../css/main.css" type="text/css" />
+<meta charset="UTF-8">
 </head>
 <body>
-<div id="grid">
-<div id="wrapper">
-<div id="header">
-<pre>
-<h2>
-    /=========\
-   |INPUT DATA|
-   \=========/
- </h2>
-</pre>
-</div>
-<div id="body">
-<!--
-	<form action="upload.php" method="post" enctype="multipart/form-data">
--->
 	<form action="insert.php" method="post" enctype="multipart/form-data">
-	<fieldset>
-		<legend>Information Server's Hardware:</legend>
-		<!--div class="block-1"-->
-		<div id="block-1">
+	<!--<fieldset>
+		<legend>Information Server's Hardware:</legend> -->
+
 			<label>ServerName:</label>
 			<input type="text" name="serverName">
-		</div>
-		<!--div class="block-1"-->
-		<div id="block-1">
+
 			<label>IP:</label>
 			<input type="text" name="IP">
-		</div>
-		<div class="block-1">
+
 			<label>Model:</label>
 			<select name="model_server"><br>
 				<option value="HP Proliant DL160 G5 Server">HP Proliant DL160 G5 Server</option>
@@ -74,8 +56,7 @@
 				<option value="Dell PowerEdge R720xd Server">Dell PowerEdge R720xd Server</option>
 				<option value="Dell PowerEdge R730xd Server">Dell PowerEdge R730xd Server</option>
 			</select>
-		</div>
-		<div class="block-1">
+
 			<label>CPU:</label>
 			<select name="Processor"><br>
 				<option value="Intel® Xeon® Processor E5-2420 v2">Intel® Xeon® Processor E5-2420 v2</option>
@@ -101,98 +82,89 @@
 				<option value="Intel® Xeon® Processor X5650">Intel® Xeon® Processor X5650</option>
 				<option value="Intel® Xeon® Processor X5670">Intel® Xeon® Processor X5670</option>
 			</select>
-		</div>
+
+
+
+		<!--
 		<div id="block-2">
-			<input type="radio" name="Num_Physical_CPU" value="1 CPU">1 x CPU<br>
-			<input type="radio" name="Num_Physical_CPU" value="2 CPU">2 x CPU<br>
+			<label>1 x CPU</lable>
+			<input type="radio" name="Num_Physical_CPU" value="1 CPU">
+			<label>2 x CPU</label>
+			<input type="radio" name="Num_Physical_CPU" value="2 CPU">
 		</div>
-		<!--div class="block-1"-->
-		<div id="block-1">
+	-->
+
+			<label>Phy_CPU:</label>
+			<select name="Num_Physical_CPU"><br>
+				<option value="1 x CPU">1 x CPU</option>
+				<option value="2 x CPU">2 x CPU</option>
+			</select>
+
 			<label>Cores:</label>
 			<input type="text" name="Cores"><br>
-		</div>
-		<div class="block-1">
+
 			<label>HDD:</label>
 			<input type="text" name="HDD"><br>
-		</div>
-		<div class="block-1">
+
 			<label>Raid:</label>
 			<input type="text" name="Raid"><br>
-		</div>
-		<div class="block-1">
+
 			<label>Rack:</label>
 			<input type="text" name="Rack"><br>
-		</div>
-		<div class="block-1">
+
 			<label>Units:</label>
 			<input type="text" name="Units"><br>
-		</div>
-		<div class="block-1">
+
 			<label>Serial_Number:</label>
 			<input type="text" name="Serial_Number"><br>
-		</div>
-		<div class="block-1">
+
 			<label>IP_iLO:</label>
 			<input type="text" name="IP_iLO"><br>
-		</div>
-		<div class="block-1">
+
 			<label>VLAN:</label>
 			<input type="text" name="VLAN"><br>
-		</div>
-		<div class="block-1">
+
 			<label>KVM_Note:</label>
 			<input type="text" name="KVM_Note"><br>
-		</div>
-		<div class="block-1">
+
 			<label>MAC_eth0:</label>
 			<input type="text" name="MAC_eth0"><br>
-		</div>
-		<div class="block-1">
+
 			<label>Switch:</label>
 			<input type="text" name="Switch"><br>
-		</div>
-		<div class="block-1">
+
 			<label>Port:</label>
 			<input type="text" name="Port"><br>
-		</div>
-		<div class="block-1">
+
 			<label>Note:</label>
 			<input type="text" name="Note"><br>
-		</div>
-		<div id="block-3">
-		</div>
+
 			<input type="file" name="file" />
 			<button type="submit" name="btn-upload">SAVE</button>
-	</fieldset>
-	</form>
+	<!--
+	</fieldset>-->
     <br /><br />
 
     <?php
 			if(isset($_GET['success']))
 			{
 		?>
-        <label>File Uploaded Successfully...  <a href="view1.php">click here to view file.</a></label>
+        <p>File Uploaded Successfully...  <a href="view1.php">click here to view file.</a></p>
     <?php
 			}
 			else if(isset($_GET['fail']))
 			{
 		?>
-        <label>Problem While File Uploading! XYZ...</label>
+        <p>Problem While File Uploading! XYZ...</p>
     <?php
 			}
 			else
 			{
 		?>
-        <label>Try to upload any files(PDF, DOC, EXE, VIDEO, MP3, ZIP,etc...)</label>
+        <p>Try to upload any files(PDF, DOC, EXE, VIDEO, MP3, ZIP,etc...)</p>
     <?php
 			}
 			?>
-
-</div><!--end div id="body"-->
-<div id="footer">
-		<label>By <a href="http://duongngochai3000.blogspot.com">duongngochai3000.blogspot.com</a></label>
-</div>
-</div><!--end div id="wrapper"-->
-</div><!--end div id="grid"-->
+</form>
 </body>
 </html>

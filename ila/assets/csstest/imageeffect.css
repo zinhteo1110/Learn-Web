@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .demo-1 {
     position:relative;
     width:140px;
@@ -43,3 +44,50 @@
 /*    padding-bottom:200px;
     padding-left:300px */
 }
+=======
+.demo-1 {
+    position:relative;
+    width:140px;
+    height:180px;
+    overflow:hidden;
+    float:left;
+/*    margin-right:2px; */
+    background-color:rgba(26,76,110,0.5)
+}
+.demo-1 p,.demo-1 h2 {
+    color:#fff;
+    padding:0px;
+/*    left:-5px; */
+    top:20px;
+    position:relative
+}
+.demo-1 p {
+    font-family:'Lato';
+    font-size:6px;
+    line-height:9px;
+    margin:0
+}
+.demo-1 h2 {
+    font-family:'Lato';
+    font-size:10px;
+    line-height:12px;
+    margin:0;
+}
+.effect img {
+    position:absolute;
+/*    margin:-5px 0; */
+    right:0;
+    top:0;
+    cursor:pointer;
+    -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -o-transition:top .4s ease-in-out,right .4s ease-in-out;
+    transition:top .4s ease-in-out,right .4s ease-in-out
+}
+.effect img.top:hover {
+    top:-230px;
+    right:-330px;
+/*    padding-bottom:200px;
+    padding-left:300px */
+}
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b

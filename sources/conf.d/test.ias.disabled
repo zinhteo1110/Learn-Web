@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 server {
         listen       80 default_server;
         listen       [::]:80 default_server;
@@ -53,3 +54,60 @@ server {
     }
 #end of test.ias
 
+=======
+server {
+        listen       80 default_server;
+        listen       [::]:80 default_server;
+        server_name  test.ias;
+#        root         /usr/share/nginx/html;
+        root            /home/WEB/Learn-Web/ila;
+
+        # Load configuration files for the default server block.
+        include /etc/nginx/default.d/*.conf;
+
+#        location / {
+#        }
+
+#       location ~ \.php$ {
+        location / {
+        root /home/WEB/Learn-Web/ila/;
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php-fpm/php-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+        }
+
+#       location /ila {
+#        try_files $uri =404;
+#        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+#        fastcgi_pass unix:/var/run/php-fpm/php-fpm.sock;
+#        fastcgi_index index.php;
+#        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+#        include fastcgi_params;
+
+#        }
+
+
+        location /test {
+        try_files $uri =404;
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php-fpm/php-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+
+        }
+
+        error_page 404 /404.html;
+            location = /40x.html {
+        }
+
+        error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
+#end of test.ias
+
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b

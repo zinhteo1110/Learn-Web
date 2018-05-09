@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 [30-Aug-2011 13:07:35] PHP Parse error:  syntax error, unexpected $end in /home4/yellowta/public_html/phpMM/ch12/signin.php on line 48
 [31-Aug-2011 14:43:04] PHP Parse error:  syntax error, unexpected '}' in /home4/yellowta/public_html/phpMM/ch12/signin.php on line 38
+=======
+[30-Aug-2011 13:07:35] PHP Parse error:  syntax error, unexpected $end in /home4/yellowta/public_html/phpMM/ch12/signin.php on line 48
+[31-Aug-2011 14:43:04] PHP Parse error:  syntax error, unexpected '}' in /home4/yellowta/public_html/phpMM/ch12/signin.php on line 38
+>>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b
