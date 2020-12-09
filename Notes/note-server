@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 --Mode						| --Cores	--Thread	--Cache		--PBF(Processor Base Frequency)
 
 HP Proliant DL160 G5 Server 		E5620		4	8		12M		2.4 Ghz
@@ -80,4 +79,3 @@ E5645 		6		12		12M		2.4 Ghz
 X5650 		6		12		12M		2.66 Ghz
 X5670		6		12		12M		2.93 Ghz
 5160		2		N/A		4M		3.0 Ghz
->>>>>>> aaaf96b1a48f0e5a8fe3e9458fec0b82e302150b
